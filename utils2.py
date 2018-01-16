@@ -142,6 +142,8 @@ def insert_layer(model, new_layer, index):
         copied.set_weights(layer.get_weights())
     return res
 
+
+    
 class BcolzArrayIterator(object):
     """
     Returns an iterator object into Bcolz carray files
